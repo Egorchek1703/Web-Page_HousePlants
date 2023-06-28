@@ -1,0 +1,2177 @@
+@media (max-width: 575.98px) {
+  header {
+    height: 100vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(169, 189, 169, 0.6)));
+    background: linear-gradient(to top, white, rgba(169, 189, 169, 0.6));
+  }
+  header .burger-menu .opened-menu {
+    left: -90px;
+  }
+  header .burger-menu .opened-menu a {
+    font-size: 18px !important;
+    padding: 2px 5px !important;
+  }
+  header .section-promo h1 {
+    font-size: 46px;
+    padding: 160px 0 20px 0;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 5%;
+    width: 70% !important;
+    height: 40px;
+    font-size: 16px;
+    background: rgba(169, 169, 169, 0.4);
+    border: 2px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+  main .section-advantages ul li {
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    max-width: 270px;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 0 20px;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 18px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 14px;
+    padding-left: 4%;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 120px;
+  }
+  main .section-goods .heading-goods {
+    padding-bottom: 120px;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 30px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 18px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 110px;
+    max-width: 300px;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 190px;
+    position: absolute;
+    top: -90px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 150px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 120px;
+  }
+  main .section-rooms {
+    padding-top: 0;
+  }
+  main .section-rooms h2 {
+    font-size: 48px;
+    padding-bottom: 10px;
+  }
+  main .section-rooms p {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .doublefoto img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .section-rooms .row .onefoto img {
+    width: 100%;
+  }
+  main .section-sunlight {
+    padding: 90px 0 50px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 48px;
+  }
+  main .section-sunlight > p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 110px;
+    max-width: 300px;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 190px;
+    position: absolute;
+    top: -90px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 150px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 120px;
+  }
+  main .section-video {
+    padding-bottom: 50px;
+  }
+  main .section-video video {
+    width: 100%;
+    border-radius: 30px;
+  }
+  main .section-search {
+    padding-bottom: 20px;
+    width: 100% !important;
+    border-radius: 30px;
+    background-size: auto 100%;
+  }
+  main .section-search h2 {
+    font-size: 24px;
+    padding: 20px 0 8px 0;
+  }
+  main .section-search p {
+    font-size: 14px;
+  }
+  main .section-search .search-input {
+    width: 60%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 0px;
+    background: none;
+  }
+  main .section-contacts {
+    padding: 50px 0 30px 0;
+  }
+  main .section-contacts h2 {
+    font-size: 32px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 90% !important;
+    padding-bottom: 10px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 20px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 20px;
+  }
+  main .section-contacts .map h3 {
+    font-size: 30px;
+  }
+  main .section-contacts .map iframe {
+    -webkit-box-shadow: 0 0 5px #2F5128;
+            box-shadow: 0 0 5px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 12px #2F5128;
+            box-shadow: 0 0 12px #2F5128;
+  }
+  footer {
+    height: 8vh;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    height: 100vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(30%, transparent)), url(../images/promo-image.jpg), center center, no-repeat;
+    background: linear-gradient(to top, rgb(255, 255, 255), transparent 30%), url(../images/promo-image.jpg), center center, no-repeat;
+  }
+  header .burger-menu .opened-menu {
+    left: -100px;
+  }
+  header .burger-menu .opened-menu a {
+    font-size: 20px !important;
+    padding: 2px 5px !important;
+  }
+  header .section-promo h1 {
+    font-size: 40px;
+    padding: 190px 0 15px 0;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 20px;
+    width: 70% !important;
+    height: 40px;
+    font-size: 18px;
+    background: rgba(169, 169, 169, 0.4);
+    border: 2px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 0;
+    margin-bottom: 150px;
+  }
+  main .section-advantages ul li {
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    width: 70% !important;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 0;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 18px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 120px;
+  }
+  main .section-goods .heading-goods {
+    padding-bottom: 120px;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 30px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 16px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 120px;
+    width: 48% !important;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 210px;
+    position: absolute;
+    top: -100px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 170px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 140px;
+  }
+  main .section-rooms {
+    padding-top: 0;
+  }
+  main .section-rooms h2 {
+    font-size: 52px;
+    padding-bottom: 10px;
+  }
+  main .section-rooms p {
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .doublefoto img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .section-rooms .row .onefoto img {
+    width: 100%;
+  }
+  main .section-sunlight {
+    padding: 60px 0 90px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 52px;
+  }
+  main .section-sunlight > p {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 125px;
+    width: 47% !important;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 10px;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 210px;
+    position: absolute;
+    top: -100px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 170px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 140px;
+  }
+  main .section-video {
+    padding-bottom: 90px;
+  }
+  main .section-video video {
+    width: 100%;
+    border-radius: 50px;
+  }
+  main .section-search {
+    padding-bottom: 40px;
+    width: 100% !important;
+    border-radius: 50px;
+    background-size: auto 100%;
+  }
+  main .section-search h2 {
+    font-size: 26px;
+    padding: 26px 0 10px 0;
+  }
+  main .section-search p {
+    font-size: 16px;
+  }
+  main .section-search .search-input {
+    width: 60%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 0;
+    background: none;
+  }
+  main .section-contacts {
+    padding: 90px 0 50px 0;
+  }
+  main .section-contacts h2 {
+    font-size: 36px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 90% !important;
+    padding-bottom: 10px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 20px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 20px;
+  }
+  main .section-contacts .map h3 {
+    font-size: 28px;
+  }
+  main .section-contacts .map iframe {
+    -webkit-box-shadow: 0 0 16px #2F5128;
+            box-shadow: 0 0 16px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 30px #2F5128;
+            box-shadow: 0 0 30px #2F5128;
+  }
+  footer {
+    height: 8vh;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    height: 100vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(30%, transparent)), url(../images/promo-image.jpg), center center, no-repeat;
+    background: linear-gradient(to top, rgb(255, 255, 255), transparent 30%), url(../images/promo-image.jpg), center center, no-repeat;
+  }
+  header .nav-menu li a {
+    font-size: 22px;
+  }
+  header .section-promo h1 {
+    font-size: 54px;
+    padding: 120px 0 20px 0;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 20px;
+    width: 45% !important;
+    height: 50px;
+    font-size: 18px;
+    background: rgba(169, 169, 169, 0.1);
+    border: 2px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 50px;
+    margin-bottom: 180px;
+  }
+  main .section-advantages ul li {
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    width: 55% !important;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 10px 0 0 0;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 18px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 110px;
+  }
+  main .section-goods .heading-goods {
+    padding-bottom: 100px;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 32px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 18px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 125px;
+    width: 42% !important;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 240px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 160px;
+  }
+  main .section-rooms {
+    padding-top: 0;
+  }
+  main .section-rooms h2 {
+    font-size: 58px;
+    padding-bottom: 10px;
+  }
+  main .section-rooms p {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .section-sunlight {
+    padding: 100px 0 120px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 52px;
+  }
+  main .section-sunlight > p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+    margin-bottom: 30px;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 140px;
+    width: 44% !important;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 240px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 160px;
+  }
+  main .section-video {
+    padding-bottom: 120px;
+  }
+  main .section-video video {
+    width: 100%;
+    border-radius: 60px;
+  }
+  main .section-search {
+    padding: 40px 0 70px 0;
+    width: 100% !important;
+    border-radius: 60px;
+    background-size: 100% 100%;
+  }
+  main .section-search h2 {
+    font-size: 38px;
+    padding: 32px 0 26px 0;
+    margin: 0;
+  }
+  main .section-search p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  main .section-search .search-input {
+    width: 48%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 0;
+    background: rgba(169, 169, 169, 0.3);
+    border: 2px solid #2F4000;
+  }
+  main .section-contacts {
+    padding: 90px 0 50px 0;
+  }
+  main .section-contacts h2 {
+    font-size: 46px;
+    padding-bottom: 30px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 46px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 46% !important;
+    padding-bottom: 30px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 24px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 24px;
+  }
+  main .section-contacts .map {
+    padding: 40px 0 50px 0;
+  }
+  main .section-contacts .map h3 {
+    font-size: 32px;
+  }
+  main .section-contacts .map iframe {
+    -webkit-box-shadow: 0 0 28px #2F5128;
+            box-shadow: 0 0 28px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 50px #2F5128;
+            box-shadow: 0 0 50px #2F5128;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    height: 110vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(30%, transparent)), url(../images/promo-image.jpg), center center, no-repeat;
+    background: linear-gradient(to top, rgb(255, 255, 255), transparent 30%), url(../images/promo-image.jpg), center center, no-repeat;
+  }
+  header .nav-menu li a {
+    font-size: 26px;
+  }
+  header .section-promo h1 {
+    font-size: 64px;
+    padding: 120px 0 20px 0;
+    margin: 0 18%;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 20px;
+    width: 42% !important;
+    height: 50px;
+    font-size: 24px;
+    background: rgba(169, 189, 169, 0.4);
+    border: 3px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 70px;
+    margin-bottom: 220px;
+  }
+  main .section-advantages ul li {
+    padding: 50px 10px;
+    width: 30% !important;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 20px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+  main .section-goods .heading-goods {
+    padding: 0;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 36px;
+    padding-bottom: 10px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 0;
+    width: 23% !important;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 170px;
+  }
+  main .section-rooms {
+    padding-top: 120px;
+  }
+  main .section-rooms h2 {
+    font-size: 72px;
+    padding-bottom: 20px;
+  }
+  main .section-rooms p {
+    font-size: 22px;
+    padding-bottom: 80px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .section-sunlight {
+    padding: 120px 0 120px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 52px;
+  }
+  main .section-sunlight > p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+    margin-bottom: 30px;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 140px;
+    width: 23% !important;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 220px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 130px;
+  }
+  main .section-video {
+    padding-bottom: 150px;
+  }
+  main .section-video video {
+    width: 90%;
+    border-radius: 60px;
+  }
+  main .section-search {
+    padding: 40px 0 70px 0;
+    width: 100% !important;
+    border-radius: 60px;
+    background-size: 100% 100%;
+  }
+  main .section-search h2 {
+    font-size: 44px;
+    padding: 32px 0 32px 0;
+    margin: 0;
+  }
+  main .section-search p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 22px;
+  }
+  main .section-search .search-input {
+    width: 40%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 0;
+    background: rgba(169, 169, 169, 0.2);
+    border: 2px solid #2F4000;
+  }
+  main .section-contacts {
+    padding: 90px 0 50px 0;
+  }
+  main .section-contacts h2 {
+    font-size: 46px;
+    padding-bottom: 30px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 46px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 46% !important;
+    padding-bottom: 46px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 26px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 26px;
+  }
+  main .section-contacts .map {
+    padding: 40px 0 40px 0;
+  }
+  main .section-contacts .map h3 {
+    font-size: 36px;
+  }
+  main .section-contacts .map iframe {
+    width: 70%;
+    -webkit-box-shadow: 0 0 28px #2F5128;
+            box-shadow: 0 0 28px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 70px #2F5128;
+            box-shadow: 0 0 70px #2F5128;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  header {
+    height: 130vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(30%, transparent)), url(../images/promo-image.jpg), center center, no-repeat;
+    background: linear-gradient(to top, rgb(255, 255, 255), transparent 30%), url(../images/promo-image.jpg), center center, no-repeat;
+  }
+  header .nav-menu li a {
+    font-size: 28px;
+  }
+  header .section-promo h1 {
+    font-size: 72px;
+    padding: 25vh 0 30px 0;
+    margin: 0 10%;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 30px;
+    width: 35% !important;
+    height: 55px;
+    font-size: 26px;
+    background: rgba(169, 189, 169, 0.2);
+    border: 3px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+  }
+  main .section-advantages ul li {
+    padding: 50px 10px;
+    width: 27% !important;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 24px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 140px;
+    margin-bottom: 10px;
+  }
+  main .section-goods .heading-goods {
+    padding: 0;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 42px;
+    padding-bottom: 15px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 24px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 0;
+    width: 23% !important;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 170px;
+  }
+  main .section-rooms {
+    padding-top: 100px;
+  }
+  main .section-rooms h2 {
+    font-size: 72px;
+    padding-bottom: 20px;
+  }
+  main .section-rooms p {
+    font-size: 26px;
+    padding-bottom: 60px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    width: 48%;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 48%;
+  }
+  main .section-sunlight {
+    padding: 100px 0 120px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 66px;
+  }
+  main .section-sunlight > p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+    margin-bottom: 30px;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 140px;
+    width: 23% !important;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 170px;
+  }
+  main .section-video {
+    padding-bottom: 100px;
+  }
+  main .section-video video {
+    width: 80%;
+    border-radius: 60px;
+  }
+  main .section-search {
+    padding: 60px 0 80px 0;
+    width: 96% !important;
+    border-radius: 60px;
+    background-size: 100% 100%;
+  }
+  main .section-search h2 {
+    font-size: 56px;
+    padding: 32px 0 32px 0;
+    margin: 0;
+  }
+  main .section-search p {
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  main .section-search .search-input {
+    width: 30%;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 0;
+    background: rgba(169, 169, 169, 0.2);
+    border: 3px solid #2F4000;
+  }
+  main .section-contacts {
+    padding: 100px 0 0 0;
+  }
+  main .section-contacts h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 46px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 46% !important;
+    padding-bottom: 46px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 26px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 26px;
+  }
+  main .section-contacts .map {
+    padding: 40px 0 70px 0;
+  }
+  main .section-contacts .map h3 {
+    font-size: 36px;
+  }
+  main .section-contacts .map iframe {
+    width: 70%;
+    -webkit-box-shadow: 0 0 28px #2F5128;
+            box-shadow: 0 0 28px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 70px #2F5128;
+            box-shadow: 0 0 70px #2F5128;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1400px) {
+  header {
+    height: 130vh !important;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(30%, transparent)), url(../images/promo-image.jpg), center center, no-repeat;
+    background: linear-gradient(to top, rgb(255, 255, 255), transparent 30%), url(../images/promo-image.jpg), center center, no-repeat;
+  }
+  header .nav-menu li a {
+    font-size: 36px;
+  }
+  header .section-promo h1 {
+    font-size: 10vh;
+    padding: 25vh 0 30px 0;
+    margin: 0 10%;
+  }
+  header .section-promo p {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+  }
+  header .section-promo input[type=search] {
+    margin-top: 30px;
+    width: 600px !important;
+    height: 55px;
+    font-size: 26px;
+    background: rgba(169, 189, 169, 0.2);
+    border: 3px solid #2F4000;
+  }
+  main .section-advantages {
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+  }
+  main .section-advantages ul li {
+    padding: 50px 10px;
+    width: 29% !important;
+  }
+  main .section-advantages ul li .row .text-container {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+  }
+  main .section-advantages ul li .row .text-container b {
+    font-size: 32px;
+  }
+  main .section-advantages ul li .row .text-container p.additional-text {
+    font-size: 32px;
+    padding-left: 10px;
+  }
+  main .section-advantages ul li .row .image-advantages img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  main .section-goods .heading-goods {
+    padding: 0;
+  }
+  main .section-goods .heading-goods h2 {
+    font-size: 42px;
+    padding-bottom: 15px;
+  }
+  main .section-goods .heading-goods a {
+    font-size: 24px;
+  }
+  main .section-goods .good-from-goods {
+    margin-bottom: 0;
+    width: 23% !important;
+  }
+  main .section-goods .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-goods .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-goods .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  main .section-goods .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-goods .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  main .section-goods .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-goods .good-from-goods .flower-image {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: -110px;
+    left: auto;
+    right: auto;
+  }
+  main .section-goods .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-goods .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-goods .good-from-goods .place-for-flower {
+    height: 170px;
+  }
+  main .section-rooms {
+    padding-top: 100px;
+  }
+  main .section-rooms h2 {
+    font-size: 72px;
+    padding-bottom: 20px;
+  }
+  main .section-rooms p {
+    font-size: 26px;
+    padding-bottom: 60px;
+  }
+  main .section-rooms .row {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main .section-rooms .row .doublefoto {
+    width: 48%;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-rooms .row .onefoto {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 48%;
+  }
+  main .section-sunlight {
+    padding: 100px 0 120px 0;
+  }
+  main .section-sunlight h2 {
+    font-size: 66px;
+  }
+  main .section-sunlight > p {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  main .section-sunlight > img {
+    height: 10%;
+    margin-bottom: 30px;
+  }
+  main .section-sunlight ul {
+    padding-top: 0;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-top: 140px;
+    width: 23% !important;
+  }
+  main .section-sunlight ul .good-from-goods {
+    margin-right: 0;
+    border: 3px solid white;
+    border-radius: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+    background: #E5E7E6;
+    position: relative;
+  }
+  main .section-sunlight ul .good-from-goods:hover {
+    border: 3px solid #2F4000;
+    cursor: pointer;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-name {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price b {
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-price input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+  }
+  main .section-sunlight ul .good-from-goods .flower-image {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    left: auto;
+    right: auto;
+  }
+  main .section-sunlight ul .good-from-goods .flowers-review {
+    padding-bottom: 10px;
+  }
+  main .section-sunlight ul .good-from-goods .good-fon {
+    background: white;
+    height: 190px;
+    border-radius: 60px;
+    width: 100%;
+    padding: 15px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  main .section-sunlight ul .good-from-goods .place-for-flower {
+    height: 170px;
+  }
+  main .section-video {
+    padding-bottom: 100px;
+  }
+  main .section-video video {
+    width: 70%;
+    border-radius: 60px;
+  }
+  main .section-search {
+    padding: 80px 0 100px 0;
+    width: 90% !important;
+    border-radius: 60px;
+    background-size: 100% 100%;
+  }
+  main .section-search h2 {
+    font-size: 68px;
+    padding: 42px 0 42px 0;
+    margin: 0;
+  }
+  main .section-search p {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  main .section-search .search-input {
+    width: 600px;
+    height: 60px;
+    font-size: 32px;
+    margin-top: 0;
+    background: rgba(169, 169, 169, 0.2);
+    border: 3px solid #2F4000;
+  }
+  main .section-contacts {
+    padding: 100px 0 0 0;
+  }
+  main .section-contacts h2 {
+    font-size: 60px;
+    padding-bottom: 30px;
+  }
+  main .section-contacts dl {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 46px 0 0 0;
+  }
+  main .section-contacts dl .contact-element {
+    width: 46% !important;
+    padding-bottom: 46px;
+  }
+  main .section-contacts dl .contact-element dt {
+    font-size: 32px;
+  }
+  main .section-contacts dl .contact-element dd {
+    font-size: 32px;
+  }
+  main .section-contacts .map {
+    padding: 40px 0 70px 0;
+  }
+  main .section-contacts .map h3 {
+    font-size: 46px;
+  }
+  main .section-contacts .map iframe {
+    width: 66%;
+    -webkit-box-shadow: 0 0 28px #2F5128;
+            box-shadow: 0 0 28px #2F5128;
+  }
+  main .section-contacts .map iframe:hover {
+    -webkit-box-shadow: 0 0 70px #2F5128;
+            box-shadow: 0 0 70px #2F5128;
+  }
+  footer {
+    height: 10vh;
+  }
+  footer p {
+    font-size: 24px;
+  }
+}
